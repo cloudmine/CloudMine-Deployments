@@ -40,7 +40,7 @@ Authorization: Bearer ${token}
     }
 }
 ```
-1. `token`: required. Refers to your developer token. See [Obtaining a Developer Token](##Obtaining-a-Developer-Token) for information on how to obtain this token. 
+1. `token`: required. Refers to your developer token. See [Obtaining a Developer Token](#obtaining-a-Developer-Token) for information on how to obtain this token. 
 2. `app_id`: required.
 
 
