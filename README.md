@@ -4,14 +4,15 @@ This package contains a Logic Engine and JavaScript snippet deployment utility s
 
 To aid integrating deploying code snippets to CloudMine Logic Engine into client's workflows, we have opened up an API endpoint for deploying code and created a linux shell script that deploys the code to this endpoint and then checks to determine whether the deployment succeeds or fails. 
 
-## Pre-Requisites & Inputs
+## Prerequisites & Required Inputs
 
-The script requires that `jq` and `tr` is installed. The following variables are required:
+1. The script requires that `jq` and `tr` is installed. 
+2. The following variables are required inputs for the script to run:
 
-| Variable Name  |  Description |
+| Name  |  Description |
 |---|---|
 | app_id  |  The target CloudMine application. | 
-| deploy_code	  | The path to the ZIP package to deploy.  | 
+| deploy-code	  | The path to the ZIP package to deploy.  | 
 | language  |  The language of the snippet. One of either `node` or `java`. | 
 | master_api_key | The Master API Key for the target application. |
 | username | The developer username. In CHC this is a username; in Compass this is the CloudMine Developer Id. | 
