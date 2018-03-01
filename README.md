@@ -40,7 +40,7 @@ Authorization: Bearer ${token}
     }
 }
 ```
-1. `token`: required. Refers to your developer token. See [Obtaining a Developer Token](#obtaining-a-Developer-Token) for information on how to obtain this token. 
+1. `token`: required. Refers to your developer token. See [Obtaining a Developer Token](#obtaining-a-developer-token) for information on how to obtain this token. 
 2. `app_id`: required.
 
 
@@ -52,8 +52,8 @@ Developer tokens are issued using the following API call.
 POST https://api.cloudmine.io/v2/auth/developer/login
 
 {
-	username: "some-username",
-	password: "some-password"
+	"username": "some-username",
+	"password": "some-password"
 }
 ```
 1. `username`: required. 
