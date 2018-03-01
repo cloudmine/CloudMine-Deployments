@@ -40,7 +40,7 @@ Authorization: Bearer ${token}
     }
 }
 ```
-1. `token`: required. Refers to your developer token. See [Obtaining a Developer Token](## Obtaining a Developer Token) for information on how to obtain this token. 
+1. `token`: required. Refers to your developer token. See [Obtaining a Developer Token](##Obtaining-a-Developer-Token) for information on how to obtain this token. 
 2. `app_id`: required.
 
 
@@ -59,7 +59,7 @@ POST https://api.cloudmine.io/v2/auth/developer/login
 1. `username`: required. 
 2. `password`: required. 
 
-**Note:** If your developer belongs to an organization in CHC, this should just be your username. If you are a developer on Compass, your username for this call is your CloudMine Developer Id. If you don't know this, please [contact us](mailto: support@cloudmineinc.com) and we will help you.
+**Note:** If your developer belongs to an organization in CHC, this should just be your username. If you are a developer on Compass, your username for this call is your CloudMine Developer Id. If you don't know this, please [contact us](mailto:support@cloudmineinc.com) and we will help you.
 
 ## Jenkins
 
