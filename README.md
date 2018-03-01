@@ -18,6 +18,8 @@ To aid integrating deploying code snippets to CloudMine Logic Engine into client
 | username | The developer username. In CHC this is a username; in Compass this is the CloudMine Developer Id. | 
 | password | The developer password. | 
 
+Upon successful completion, the script will output `OK`. 
+
 ## Deployment Endpoint
 The endpoint for deploying a snippet is:
 
