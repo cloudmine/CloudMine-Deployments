@@ -15,10 +15,10 @@ Content-Type: multipart/form-data
 
 file=@code-to-deploy.zip
 ```
-# `app_id`: required.
-# `language`: required. Indicates the language of the code package being deployed. Supported options include `node` and `java`. 
-# `X-CloudMine-ApiKey`: required. This *must* be the Master API Key, available from within the CHC or Compass dashboard. 
-# `file`: a form-field which specifies the ZIP package to be uploaded. 
+1. `app_id`: required.
+2. `language`: required. Indicates the language of the code package being deployed. Supported options include `node` and `java`. 
+3. `X-CloudMine-ApiKey`: required. This *must* be the Master API Key, available from within the CHC or Compass dashboard. 
+4. `file`: a form-field which specifies the ZIP package to be uploaded. 
 
 ## Checking the deployment status
 
@@ -40,8 +40,8 @@ Authorization: Bearer ${token}
     }
 }
 ```
-# `token`: required. Refers to your developer token. See [Obtaining a Developer Token](## Obtaining a Developer Token) for information on how to obtain this token. 
-# `app_id`: required.
+1. `token`: required. Refers to your developer token. See [Obtaining a Developer Token](## Obtaining a Developer Token) for information on how to obtain this token. 
+2. `app_id`: required.
 
 
 ## Obtaining a Developer Token
@@ -56,8 +56,8 @@ POST https://api.cloudmine.io/v2/auth/developer/login
 	password: "some-password"
 }
 ```
-# `username`: required. 
-# `password`: required. 
+1. `username`: required. 
+2. `password`: required. 
 
 **Note:** If your developer belongs to an organization in CHC, this should just be your username. If you are a developer on Compass, your username for this call is your CloudMine Developer Id. If you don't know this, please [contact us](mailto: support@cloudmineinc.com) and we will help you.
 
